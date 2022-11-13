@@ -4,24 +4,39 @@
     box-sizing: border-box;
 }
 
-ul {
-    margin: 15px 10px 7px 30px;
+/* #titleId {
+    color: yellow;
+}
+
+.titleClass {
+    color: green !important;
+} */
+
+
+h1 {
+    color: red;
+    font-size: 94px;
+    font-family: Arial, sans-serif;
+    line-height: 3;
+    background-color: black;
     padding: 40px;
+    width: 70vw;
+    height: 50vh;
 }
 
 p {
-    color: blue;
+    color: red;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    line-height: 2;
+    background-color: black;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    padding: 40px;
+    width: 70vw;
+    height: 50vh;
+    
 }
 
-.menu {
-    background-color: coral;
-    color: green;
-    padding: 30px;
-    margin-bottom: 30;
-}
 
-#header {
-    padding: 30px;
-    border: 1px solid #000;
-    background-color: red;
-}
+
