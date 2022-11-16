@@ -4,24 +4,48 @@
     box-sizing: border-box;
 }
 
-ul {
-    margin: 15px 10px 7px 30px;
-    padding: 40px;
+body {
+    height: 900vh;
 }
 
-p {
-    color: blue;
+div {
+    padding: 50px;
 }
 
-.menu {
+button {
     background-color: coral;
-    color: green;
-    padding: 30px;
-    margin-bottom: 30;
+    padding: 20px;
+    border: none;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all cubic-bezier(.03,.79,.58,.19);
 }
 
-#header {
-    padding: 30px;
-    border: 1px solid #000;
+button:hover {
     background-color: red;
+}
+
+button:focus {
+    background-color: black;
+}
+
+button:before {
+    content: ' $';
+    font-size: 45px;
+}
+
+button:after {
+    content: ' !!!';
+}
+
+header {
+    background-color: red;
+}
+
+@media (max-width: 800px) and (min-width: 600px){
+    header {
+        background-color: coral;
+    }
+    
 }
