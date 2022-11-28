@@ -18,6 +18,11 @@ img {
     border-radius: 10px;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .container {
     width: 1100px;
     max-width: 100%;
@@ -32,20 +37,38 @@ img {
 }
 
 .title {
-    
-}
-.sutle {
-    
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    line-height: 42px;
 }
 .subtitle {
-    
+    margin-bottom: 10px;
+    opacity: 0.4;
+    line-height: 19px;
+    font-size: 16px;
+    font-weight: 400px;
 }
+
 .description {
-    
+    margin-bottom: 30px;   
 }
 .btn {
-    
+    background-color: #FF5C00;
+    padding: 10px 30px;
+    display: inline-block;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 21px;
+    border-radius: 100px;
+    transition: all 200ms  ease-in-out;
 }
+
+.btn:hover {
+    background-color: #FF3D00;
+}
+
 .params {
     
 }
