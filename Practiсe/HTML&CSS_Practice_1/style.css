@@ -23,6 +23,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #FF3D00;
+}
+
 .container {
     width: 1100px;
     max-width: 100%;
@@ -54,6 +58,11 @@ a {
 .description {
     margin-bottom: 30px;   
 }
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
 .btn {
     background-color: #FF5C00;
     padding: 10px 30px;
@@ -70,8 +79,24 @@ a {
 }
 
 .params {
-    
+    list-style-type: none;
 }
+
+.params li {
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    grid-gap: 30px;
+    width: 100%;
+    font-size: 14px; 
+}
+
+.params li .label {
+    opacity: 0.4;
+}
+
+
+
 .tag {
     
 }
