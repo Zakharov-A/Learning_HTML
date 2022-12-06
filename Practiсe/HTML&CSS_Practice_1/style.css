@@ -27,6 +27,12 @@ a:hover {
     color: #FF3D00;
 }
 
+h2 {
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 22px;
+}
+
 .container {
     width: 1100px;
     max-width: 100%;
@@ -71,6 +77,7 @@ a:hover {
     font-size: 18px;
     line-height: 21px;
     border-radius: 100px;
+    color: #fff !important;
     transition: all 200ms  ease-in-out;
 }
 
@@ -95,21 +102,32 @@ a:hover {
     opacity: 0.4;
 }
 
-
-
 .tag {
-    
+    font-size: 12px;
+    font-weight: 400;
+    padding: 3px 5px;
+    border-radius: 6px;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    margin-top: -3px;
 }
 
 .text-muted {
-    
+    opacity: 0.4;
 }
 .rating-main {
-    
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #44C916;
+
 }
 .rating-counts {
-    
+    display: block;
+    margin-bottom: 10px;
 }
 .rating-details {
-    
+    display: inline-block;
 }
