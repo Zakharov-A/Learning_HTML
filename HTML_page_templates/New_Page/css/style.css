@@ -1,17 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import "reset.css";
+@import "parts/_container.css";
+@import "parts/_footer.css";
+@import "parts/_header.css";
+@import "parts/_main.css";
 
-img {
-    width: 100%;
-}
 
-a {
-    display: inline-block;
-}
 
-ul {
-    list-style-type: none;
-}
+

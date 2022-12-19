@@ -1,0 +1,9 @@
+.header {
+    height: 60px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3c4148;
+    padding: 0 15px;
+}
