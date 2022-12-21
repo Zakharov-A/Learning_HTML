@@ -9,8 +9,64 @@
 .main-photo {
     width: 530px;
     max-width: 100%;
+    margin-right: 30px;
 }
 
 .main-details {
     width: 435px;
+}
+
+.main-details-vendor {
+    font-size: 12px;
+    font-weight: 700;
+    opacity: 0.4;
+}
+.main-details-title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 66px;
+    margin-bottom: 15px;
+}
+.main-details-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: justify;
+    margin-bottom: 36px;
+}
+.main-details-price {
+    background-color: #3C4140;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.main-details-price:after {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background-image: url('../../img/sq-up.svg');
+    background-repeat: repeat no-repeat;
+}
+
+.main-details-price-price {
+    width: 180px;
+}
+
+.main-details-price-action {
+    display: inline-block;
+}
+
+.main-details-price-reviews {
+    width: 100%;
+}
+.main-details-price-reviews-stars {
+
+}
+.main-details-price-reviews-link {
+
 }
