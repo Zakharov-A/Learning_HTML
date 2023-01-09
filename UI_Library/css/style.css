@@ -1,0 +1,8 @@
+/* FONTS */
+@import url('../fonts/Circe/stylesheet.css');
+
+/* PARTS CSS */
+@import url('parts/_main.css');
+@import url('parts/_navbar.css');
+@import url('parts/_reset.css');
+@import url('parts/_section.css');
