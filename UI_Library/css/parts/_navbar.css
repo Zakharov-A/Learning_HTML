@@ -5,6 +5,8 @@
     border-radius: 20px;
     background-color: #16182D;
     border: 1px solid #23243E;
+    position: sticky;
+    top: 30px;
 }
 
 .navbar__link {
