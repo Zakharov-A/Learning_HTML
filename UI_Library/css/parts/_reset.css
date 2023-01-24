@@ -37,6 +37,8 @@ img {
 
 button {
     outline: none !important;
+    font-family: inherit;
+    font-size: inherit;
 }
 
 
