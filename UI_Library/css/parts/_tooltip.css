@@ -1,0 +1,7 @@
+.tooltip {
+    font-weight: 700;
+    line-height: 27px;
+    color: #fff;
+    text-decoration: underline;
+    transition: color 150ms ease-in-out;
+}
