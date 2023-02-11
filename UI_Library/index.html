@@ -8,6 +8,7 @@
     <title>UI practice</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/easy-toggler@2.2.7"></script>
 </head>
 
 <body>
@@ -40,16 +41,24 @@
             <section id="tooltips" class="section">
                 <h2 class="title" >2. Подсказки</h2>
 
-               <span class="tooltip" data-tooltip="Текст какой-либо подсказки по наведению на текст">Подсказка стандарт</span>
+               <span class="link" data-tooltip="Текст какой-либо подсказки по наведению на текст">Подсказка стандарт</span>
             </section>
             <!-- /#tooltips.section -->
 
             <section id="dropdown" class="section">
                 <h2 class="title">3. Выпадающее меню</h2>
 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, eum consequuntur saepe fugit vitae
-                consectetur optio. Quam minima minus, aliquid praesentium possimus error tenetur similique voluptatem
-                tempora cumque ex quae?
+                <div class="dropdown">
+                    <a href="#" class="link" easy-toggle="#drop1" easy-class="dropdown__drop--active" easy-rcoe>Выпадающее меню</a>
+                    <div id="drop1" class="dropdown__drop ">
+                        <a href="#" class="dropdown__drop-item">Элемент меню</a>
+                        <a href="#" class="dropdown__drop-item">Второй элемент</a>
+                        <a href="#" class="dropdown__drop-item">Третий элемент</a>
+
+                    </div>
+                    <!-- /#drop1.dropdown__drop -->
+                </div>
+                <!-- /.dropdown -->               
             </section>
             <!-- /#dropdown.section -->
 
