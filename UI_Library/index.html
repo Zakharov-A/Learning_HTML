@@ -141,9 +141,7 @@
             <section id="modal" class="section">
                 <h2 class="title">7. Модальное окно</h2>
 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, eum consequuntur saepe fugit vitae
-                consectetur optio. Quam minima minus, aliquid praesentium possimus error tenetur similique voluptatem
-                tempora cumque ex quae?
+               <button class="btn" easy-toggle="#modalWin" easy-class="modal--active">Модальное окно</button>
             </section>
             <!-- /#modal.section -->
 
@@ -160,11 +158,13 @@
 
     </div>
     <!-- /.container -->
-
-    <div class="model">
+    
+    <div id="modalWin" class="modal">
         <div class="modal__window">
             <h2 class="modal__window-title">Заголовок окна</h2>
-            <button class="modal__window-close"><span class="iconify" data-icon="eva:close-outline"></span></button>
+            <button class="modal__window-close" easy-remove="#modalWin" easy-class="modal--active">
+                <span class="iconify" data-icon="eva:close-outline"></span>
+            </button>
 
             <div class="modal__body">
                 <span class="modal__body-label">Любой контент</span>
@@ -172,10 +172,10 @@
             <!-- /.modal__body -->
         </div>
         <!-- /.modal__window -->
-        <div class="model__overlay"></div>
-        <!-- /.model__overlay -->
+
+        <div class="modal__overlay" easy-remove="#modalWin" easy-class="modal--active"></div>
     </div>
-    <!-- /.model -->
+    <!-- /#modalWin.modal -->
 
 </body>
 
