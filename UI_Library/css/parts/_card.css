@@ -30,9 +30,18 @@
 .card__params li {
     font-size: 12px;
     color: #9CA0D2;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.card__params li .iconify {
+    margin-top: -4px;
 }
 
 .card__text {
     color: #9CA0D2;
     font-size: 14px;
+    margin-bottom: 15px;
 }
+
