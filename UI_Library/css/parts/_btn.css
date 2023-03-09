@@ -8,6 +8,7 @@
     line-height: 27px;
     cursor: pointer;
     user-select: none;
+    text-align: center;
     transition: background 200ms ease-in-out, box-shadow 100ms ease-in-out; 
 }
 
